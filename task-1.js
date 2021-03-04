@@ -4,8 +4,10 @@ console.log(`В списке ${itemsByTag.length} категории.`)
 
 
 itemsByTag.forEach((item) => {
-    const text = item.firstElementChild.textContent
-    console.log(text)
+    const text1 = item.firstElementChild.textContent;
+    console.log(`Категория: ${text1}`)
+    const text2 = item.lastElementChild.children.length;
+    console.log(`Количество элементов: ${text2}`)
 })
     
 

@@ -1,0 +1,41 @@
+img {
+  width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.image-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.image-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+#name-input {
+  margin-top: 30px;
+}
+
+#validation-input {
+  margin-top: 30px;
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+.wrapper7 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
